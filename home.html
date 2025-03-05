@@ -414,7 +414,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <form>
+            <form id="bookingForm">
               <div class="text-center mb-4">
                 <img
                   src="./Images/logo.png"
@@ -596,12 +596,20 @@
     <script>
       function handleLogin() {
         const userType = document.getElementById("userType").value;
-        if (userType === "Admin") {
-          window.location.href = "admin-module.html";
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        if (userType == "Admin") {
+          if(username ==="hari" && password === "hari@123"){
+            window.location.href = "admin.html";
+          }
+          else{
+            alert("Invalid credentials");
+          }
         } else {
           alert("Invalid login type");
         }
       }
     </script>
+    <script src="./form.js"></script>
   </body>
 </html>
