@@ -1,4 +1,5 @@
 // count JS
+// count JS
 document.addEventListener("DOMContentLoaded", function () {
   function animateCounters() {
     const counters = document.querySelectorAll(".card-title");
@@ -64,10 +65,9 @@ sidbar.forEach((element) => {
   });
 });
 
-//scroll animation
-document.addEventListener("DOMContentLoaded", function () {
-  const elements = document.querySelectorAll(".animate-on-scroll");
+  //scroll animation
 
+  const elements = document.querySelectorAll(".animate-on-scroll");
   const observer = new IntersectionObserver(
     (entries, observer) => {
       entries.forEach((entry) => {
