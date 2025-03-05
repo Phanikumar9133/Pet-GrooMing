@@ -81,4 +81,3 @@ sidbar.forEach((element) => {
   );
 
   elements.forEach((element) => observer.observe(element));
-});
