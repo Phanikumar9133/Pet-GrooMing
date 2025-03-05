@@ -602,21 +602,11 @@
     <script>
       function handleLogin() {
         const userType = document.getElementById("userType").value;
-<<<<<<< HEAD:home.html
-        const username = document.getElementById("username").value;
-        const password = document.getElementById("password").value;
-        if (userType == "Admin") {
-          if(username ==="hari" && password === "hari@123"){
-            window.location.href = "admin.html";
-          }
-          else{
-            alert("Invalid credentials");
-          }
-=======
         if (userType === "Admin") {
           window.location.href = "Admin.html";
->>>>>>> 0bda2d80e853e4e1cea6c5c08987df13952dc836:index.html
-        } else {
+        }
+        
+        else {
           alert("Invalid login type");
         }
       }
