@@ -247,7 +247,7 @@ h1 {
 }
 
 .con4 {
-  background-image: url("./Images/groomax-counter.jpg");
+  background-image: url("./images/groomax-counter.jpg");
   height: 60vh;
   background-size: cover;
   background-position: center;
@@ -352,7 +352,7 @@ h1 {
 .numicon {
   width: 50px;
   height: 50px;
-  background-image: url("../images/call.jpg");
+  background-image: url("./images/call.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 10px;
