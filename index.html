@@ -22,9 +22,8 @@
       <div class="container">
         <!-- Logo on the left -->
         <a class="navbar-brand" href="#Home">
-          <img src="../images/logo.png" alt="Logo" />
+          <img src="./images/logo.png" alt="Logo" />
         </a>
-
         <!-- Navbar Toggle for Mobile -->
         <button
           class="navbar-toggler"
@@ -37,7 +36,6 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <!-- Centered Navbar Items -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
@@ -55,7 +53,6 @@
             </li>
           </ul>
         </div>
-
         <!-- Login Button on the Right -->
         <a
           class="nav-link login-btn"
@@ -136,7 +133,6 @@
               <div class="btn btn-warning text-center">View more</div>
             </div>
           </div>
-
           <div class="card">
             <div class="card-img-top">
               <img src="./images/close-up-portrait-yorkshire-dog.jpg" alt="" />
@@ -160,7 +156,6 @@
       >
         <div class="title">
           <h1 class="text-center">Our services</h1>
-
           <p class="text-center">
             Providing top-quality pet grooming services, from luxurious baths to
             stylish <br />
@@ -203,23 +198,18 @@
         <div class="card m-2">
           <div class="card-body">
             <h1 class="card-title text-center" data-target="420">1</h1>
-
             <p class="card-text text-center">Pets Hosted</p>
           </div>
         </div>
-
         <div class="card m-2">
           <div class="card-body">
             <h1 class="card-title text-center" data-target="25">1</h1>
-
             <p class="card-text text-center">Services</p>
           </div>
         </div>
-
         <div class="card m-2">
           <div class="card-body">
             <h1 class="card-title text-center" data-target="350">1</h1>
-
             <p class="card-text text-center">Happy Clients</p>
           </div>
         </div>
@@ -264,7 +254,7 @@
           </div>
           <div class="col">
             <div class="img">
-              <img src="./Images/img-2.jpg" alt="member-1" />
+              <img src="./images/img-2.jpg" alt="member-1" />
               <div class="overlay">
                 <h3>MARIA SHARAP</h3>
               </div>
@@ -299,13 +289,11 @@
             <div class="icondiv">
               <img src="./images/logo.png" alt="" />
             </div>
-
             <div class="number">
               +1 800 123 456 789
               <p id="que">Got Questions?Call us 24/7</p>
             </div>
           </div>
-
           <div class="address">92 Bowery St., New York, NY 10013</div>
           <div class="icons">
             <div><i class="fa-brands fa-twitter"></i></div>
@@ -314,7 +302,6 @@
             <div><i class="fa-brands fa-instagram"></i></div>
           </div>
         </div>
-
         <div class="secondpart">
           <h3>Help</h3>
           <table>
@@ -344,7 +331,6 @@
             </tr>
           </table>
         </div>
-
         <div class="thirdpart">
           <h3 style="grid-column: span 3">Gallery</h3>
           <div
@@ -372,7 +358,6 @@
             style="background-image: url('./images/card6.webp')"
           ></div>
         </div>
-
         <div class="fourthpart">
           <h3>Working Hours</h3>
           <div class="working-hours">
@@ -382,7 +367,6 @@
           </div>
         </div>
       </div>
-
       <div class="footer-bottom">
         <a href="#">Terms of use</a>
         <a href="#">Privacy</a>
@@ -556,17 +540,14 @@
               <div class="container">
                 <div class="biscuit-icon"></div>
                 <h2>Welcome To Groomax</h2>
-
                 <div class="input-group">
                   <input type="text" id="username" required />
                   <label>Username</label>
                 </div>
-
                 <div class="input-group">
                   <input type="password" id="password" required />
                   <label>Password</label>
                 </div>
-
                 <div class="input-group">
                   <select required id="userType">
                     <option value="" disabled selected>Login As</option>
@@ -574,7 +555,6 @@
                     <option value="Admin">Admin</option>
                   </select>
                 </div>
-
                 <button
                   type="button"
                   id="loginBtn"
@@ -583,7 +563,6 @@
                 >
                   Login
                 </button>
-
                 <div class="links">
                   <a href="#">Forgot Password?</a>
                 </div>
@@ -594,7 +573,6 @@
       </div>
     </div>
     <!-- Bootstrap JS and dependencies -->
-    <!-- <script src="get.js"></script> -->
     <script src="Home.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -604,9 +582,7 @@
         const userType = document.getElementById("userType").value;
         if (userType === "Admin") {
           window.location.href = "Admin.html";
-        }
-        
-        else {
+        } else {
           alert("Invalid login type");
         }
       }
